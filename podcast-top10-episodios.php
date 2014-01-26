@@ -1,7 +1,7 @@
 <?php
 
 mysql_connect("localhost","","");
-mysql_select_db("relsonin_wrdp1");
+mysql_select_db("SEU_BANCO_DE_DADOS_DO_WORDPRESS");
 
 $sql  = "";
 $sql .= "SELECT   wp_posts.id                               , ";
